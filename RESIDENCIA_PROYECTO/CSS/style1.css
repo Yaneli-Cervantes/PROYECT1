@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+body {
+  min-height: 1000px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 100px;
+  z-index: 1000;
+  transition: 0.6s;
+  background: rgb(30, 30, 31);
+}
+
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul li {
+  list-style: none;
+}
+
+header ul li a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: 800;
+  justify-content: center;
+  font-size: medium;
+}
+
+.imagen1 {
+  width: 200px;
+  height: auto;
+  position: relative;
+  top: 2px;
+  right: 50px;
+}
+
+.imagen2 {
+  width: 150px;
+  height: 140px;
+  position: relative;
+  top: 1px;
+  left: 550px;
+}
+
+.sec {
+  top: 10px;
+  width: 100%;
+  min-height: 140vh;
+  background: url(../image/Acayucan.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: contain;
+}
+
+.acayucan {
+  display: grid;
+  grid-gap: 10px;
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+h2 {
+  font-size: 35px;
+  font-weight: 700;
+  list-style: normal;
+  text-align: center;
+  line-height: 52.5px;
+  position: absolute;
+  color: rgb(239, 215, 0);
+  top: 220px;
+  left: 5px;
+}
+
+h5 {
+  position: absolute;
+  font-size: 25px;
+  font-weight: 300px;
+  margin-bottom: 10px;
+  color: white;
+  left: 3px;
+}
+
+.text1 h2 {
+  font-size: 35px;
+  font-weight: 700;
+  list-style: normal;
+  text-align: right;
+  line-height: 52.5px;
+  position: absolute;
+  color: rgb(239, 215, 0);
+  top: 500px;
+  padding: 100px;
+  right: 5px;
+}
+
+.text1 h5 {
+  font-size: 25px;
+  font-weight: 300px;
+  margin-bottom: 20px;
+  color: black;
+  letter-spacing: 1px;
+  padding: 20px;
+}
+
+.sec2 {
+  top: 10px;
+  width: 100%;
+  min-height: 210vh;
+  background: url(../image/Minatitlan.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: contain;
+}
+
+.minatitlan {
+  display: grid;
+  grid-gap: 10px;
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+.sec3 {
+  top: 10px;
+  width: 100%;
+  min-height: 110vh;
+  background: url(../image/Coatzacoalcos.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: contain;
+}
+
+.coatza {
+  display: grid;
+  grid-gap: 10px;
+  max-width: 100%;
+  margin-top: 10px;
+}
+.sec4 {
+  top: 10px;
+  width: 100%;
+  min-height: 155vh;
+  background: url(../image/cd.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: contain;
+}
+
+.cd {
+  display: grid;
+  grid-gap: 10px;
+  max-width: 100%;
+  margin-top: 250px;
+}
+
+.sec .content {
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.mxw800p {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.rect1 {
+  top: 150px;
+  padding: 10px;
+  width: 100%;
+  text-align:center;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  background-color: yellow;
+  text-decoration: double;
+  position: absolute;
+  font-family:Verdana;
+  font-weight: bold;
+  font-size: 40px;
+  opacity: 0.7;
+}
+
+.rect2 {
+  top: 1010px;
+  padding: 10px;
+  width: 100%;
+  text-align:center;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  background-color: yellow;
+  text-decoration: double;
+  position: absolute;
+  font-family:Verdana;
+  font-weight: bold;
+  font-size: 40px;
+  opacity: 0.7;
+}
+
+.rect3 {
+  top: 2545px;
+  padding: 10px;
+  width: 100%;
+  text-align:center;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  background-color: yellow;
+  text-decoration: double;
+  position: absolute;
+  font-family:Verdana;
+  font-weight: bold;
+  font-size: 40px;
+  opacity: 0.7;
+}
+
+.rect4 {
+  top: 3375px;
+  padding: 10px;
+  width: 100%;
+  text-align:center;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  background-color: yellow;
+  text-decoration: double;
+  position: absolute;
+  font-family:Verdana;
+  font-weight: bold;
+  font-size: 40px;
+  opacity: 0.7;
+}
+
+
+
+.mxw800p {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.img1{
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 240px;
+  left: 100px;
+}
+
+.img2{
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 650px;
+  right: 100px;
+}
+

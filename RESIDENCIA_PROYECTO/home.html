@@ -4,77 +4,203 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ferretianguis ¡Comprando y Ahorrando! </title>
+    <title>Ferretianguis ¡Comprando y Ahorrando!</title>
     <link rel="icon" href="./image/logoprin.ico" />
-    <link rel="stylesheet" href="./CSS/estilo.css" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <script
+      src="https://kit.fontawesome.com/f63e26d94b.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body>
+    <!--HEADER-->
     <header>
       <h1>
-        
-        <img src="image/logo.png" />
-        <img src="image/imagen.jpeg"/>
-      </h1>
-      <h2>
         <ul>
-          <li><a href="#home" onclick="alternar()"> Inicio </a></li>
-          <li><a href="#sucursales" onclick="alternar()"> Sucursales </a></li>
-          <li><a href="#about" onclick="alternar()"> ¿Quienes somos? </a></li>
-          <li><a href="#contact" onclick="alternar()"> Contacto </a></li>
+          <img src="image/logo.png" alt="Imagen 1" class="imagen1" />
+          <li><a href="home.html" onclick="alternar()"> Inicio </a></li>
+          <li>
+            <a href="about.html" onclick="alternar()"> ¿Quienes somos? </a>
+          </li>
+          <li>
+            <a href="sucursales.html" onclick="alternar()"> Sucursales </a>
+          </li>
+          <li>
+            <a href="contact.html" onclick="alternar()"> Iniciar Sesion </a>
+          </li>
+          <img src="image/imagen.jpeg" alt="Imagen 2" class="imagen2" />
         </ul>
-        <div class="toggle" onclick="alternar()"></div>
-      </h2>
+      </h1>
+      <div class="toggle" onclick="alternar()"></div>
     </header>
+    <!--BANNER-->
+
     <section class="banner" id="home">
-      <nav>
-        <ul class="menu">
+      <aside>
+        <nav>
+          <ul class="menu">
             <li>
-                <button id="todos" class="boton-menu boton-categoria active"><i class="bi bi-hand-index-thumb-fill"></i> Categorias </button>
-            </li>
-
-
-            <li>
-                <button id="abrigos" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb">
-                </i> Agricultura y Jardineria</button>
-            </li>
-
-
-            <li>
-                <button id="camisetas" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Carpinteria</button>
-            </li>
-
-
-            <li>
-                <button id="pantalones" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>Herramientas</button>
+              <button id="categorias" class="boton-menu boton-categoria active">
+                <i class="bi bi-hand-index-thumb-fill"></i> Categorias
+              </button>
             </li>
 
             <li>
-              <button id="pantalones" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>Iluminacion</button>
+              <button id="acces" class="boton-menu boton-categoria">
+                <i class="bi bi-hand-index-thumb"> </i> Accesorios
+              </button>
             </li>
 
             <li>
-              <button id="pantalones" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>Mecanicas y Automotriz</button>
+              <button id="adhes" class="boton-menu boton-categoria">
+                <i class="bi bi-hand-index-thumb"></i> Adhesivos
+              </button>
             </li>
 
             <li>
-              <button id="pantalones" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>Pintura</button>
+              <button id="agri" class="boton-menu boton-categoria">
+                <i class="bi bi-hand-index-thumb"></i> Agricultura
+              </button>
             </li>
 
             <li>
-              <button id="pantalones" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>Plomeria</button>
+              <button id="auto" class="boton-menu boton-categoria">
+                <i class="bi bi-hand-index-thumb"></i> Automotriz
+              </button>
             </li>
 
             <li>
-              <button id="pantalones" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>Seguridad Industrial</button>
+              <button id="house" class="boton-menu boton-categoria">
+                <i class="bi bi-hand-index-thumb"></i> Casa
+              </button>
             </li>
 
             <li>
-              <button id="pantalones" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>Soldadura</button>
+              <button id="carpin" class="boton-menu boton-categoria">
+                <i class="bi bi-hand-index-thumb"></i> Carpinteria
+              </button>
             </li>
-        </ul>
-    </nav>
-    
+
+            <li>
+              <button id="conduct" class="boton-menu boton-categoria">
+                <i class="bi bi-hand-index-thumb"></i> Conductor
+              </button>
+            </li>
+
+            <li>
+              <button id="conexion" class="boton-menu boton-categoria">
+                <i class="bi bi-hand-index-thumb"></i> Conexion y Uniones
+              </button>
+            </li>
+
+            <li>
+              <button id="construction" class="boton-menu boton-categoria">
+                <i class="bi bi-hand-index-thumb"></i> Construccion
+              </button>
+            </li>
+
+            <li>
+              <button id="disc" class="boton-menu boton-categoria">
+                <i class="bi bi-hand-index-thumb"></i> Discos
+              </button>
+            </li>
+
+            <li>
+              <button id="elect" class="boton-menu boton-categoria">
+                <i class="bi bi-hand-index-thumb"></i> Electricidad y
+                Electronica
+              </button>
+            </li>
+
+            <li>
+              <button id="esme" class="boton-menu boton-categoria">
+                <i class="bi bi-hand-index-thumb"></i> Esmeril
+              </button>
+            </li>
+
+            <li>
+              <button id="fijsuj" class="boton-menu boton-categoria">
+                <i class="bi bi-hand-index-thumb"></i> Fijacion y Sujecion
+              </button>
+            </li>
+
+            <li>
+              <button id="font" class="boton-menu boton-categoria">
+                <i class="bi bi-hand-index-thumb"></i> Fontaneria
+              </button>
+            </li>
+
+            <li>
+              <button id="gana" class="boton-menu boton-categoria">
+                <i class="bi bi-hand-index-thumb"></i> Ganaderia
+              </button>
+            </li>
+
+            <li>
+              <button id="industry" class="boton-menu boton-categoria">
+                <i class="bi bi-hand-index-thumb"></i> Industrial
+              </button>
+            </li>
+
+            <li>
+              <button id="lumbr" class="boton-menu boton-categoria">
+                <i class="bi bi-hand-index-thumb"></i> Lubricantes
+              </button>
+            </li>
+
+            <li>
+              <button id="maquequi" class="boton-menu boton-categoria">
+                <i class="bi bi-hand-index-thumb"></i> Maquinaria y Equipo
+              </button>
+            </li>
+
+            <li>
+              <button id="mec" class="boton-menu boton-categoria">
+                <i class="bi bi-hand-index-thumb"></i> Mecanica
+              </button>
+            </li>
+
+            <li>
+              <button id="pesca" class="boton-menu boton-categoria">
+                <i class="bi bi-hand-index-thumb"></i> Pesca
+              </button>
+            </li>
+
+            <li>
+              <button id="pintur" class="boton-menu boton-categoria">
+                <i class="bi bi-hand-index-thumb"></i> Pinturas
+              </button>
+            </li>
+
+            <li>
+              <button id="rued" class="boton-menu boton-categoria">
+                <i class="bi bi-hand-index-thumb"></i> Ruedas y Rodajes
+              </button>
+            </li>
+
+            <li>
+              <button id="silicone" class="boton-menu boton-categoria">
+                <i class="bi bi-hand-index-thumb"></i> Silicon
+              </button>
+            </li>
+
+            <li>
+              <button id="solda" class="boton-menu boton-categoria">
+                <i class="bi bi-hand-index-thumb"></i> Soldadura
+              </button>
+            </li>
+
+            <li>
+              <button id="succion" class="boton-menu boton-categoria">
+                <i class="bi bi-hand-index-thumb"></i> Succion
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+      <header2>
+      </header2>
     </section>
   </body>
 </html>
